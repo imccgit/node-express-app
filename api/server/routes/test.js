@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 var _ = require('lodash');
 var widgets = [
-	{ id: 1, name: 'Icons' },
-	{ id: 2, name: 'Buttons' },
+	{ id: 1, name: 'TEST Router' },
+	{ id: 2, name: 'Another testccccc' },
 ];
 // Get all widgets.
 router.get('/', function(req, res, next) {
